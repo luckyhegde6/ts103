@@ -14,9 +14,9 @@ It demonstrates **Classes, Inheritance, and Abstraction** using a clean design �
 ---
 
 ## 🏗️ Architecture
-- **BaseTask (Abstract)** → defines the contract (run, log)
+- **Task (Abstract)** → defines the contract (run, execute)
 - **ConcreteTask** → implements custom logic
-- **TaskScheduler** → manages timing, queue, and execution
+- **TaskScheduler** → manages queue and sequential execution
 
 ```ts
 abstract class Task {
@@ -68,3 +68,11 @@ npm run start
 🎉 All tasks completed!
 
 ```
+
+## 📚 Documentation
+
+- [LEARNING.md](docs/LEARNING.md) — TypeScript OOP learning notes
+- [DESIGN_OVERVIEW.md](docs/DESIGN_OVERVIEW.md) — HLD & LLD diagrams
+- [INTERVIEW_QUESTIONS.md](docs/INTERVIEW_QUESTIONS.md) — Interview prep
+- [NEETCODE.md](docs/NEETCODE.md) — Sequence diagram, edge cases, complexity, patterns
+- [DESIGN_PATTERNS.md](docs/DESIGN_PATTERNS.md) — Design patterns used and evolution
